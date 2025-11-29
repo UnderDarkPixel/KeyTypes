@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Types</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="global_wrapper">
+        <h2>Java Script Key Code</h2>
+        <h1 class="code"></h1>
+        <h5>Key Code Information</h5>
+
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="title">event key</div>
+                <div class="eventkey value">-</div>
+                <div class="description">The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars</div>
+            </div>
+            <div class="info-card">
+                <div class="title">event location</div>
+                <div class="eventlocation value">-</div>
+                <div class="description">Some keys exist more than once on your keyboard. This provides the location of the key pressed. Try it with both shifts.</div>
+            </div>
+            <div class="info-card">
+                <div class="title">event code</div>
+                <div class="eventcode value">-</div>
+                <div class="description">The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.</div>
+            </div>
+            <div class="info-card">
+                <div class="title">event which</div>
+                <div class="eventwhich value">-</div>
+                <div class="description">event.which and event.keyCode are deprecated in modern browsers. Use .key or .code instead.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
